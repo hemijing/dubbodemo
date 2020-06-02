@@ -10,6 +10,7 @@ public class DubboServiceFacade {
             System.out.println("****************************");
             return "OpenAcc";
         }
+        System.out.println("this is my name");
         return "Others";
     }
 }
